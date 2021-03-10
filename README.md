@@ -205,9 +205,9 @@
     config.active_storage.service = :private
     ```
 
-    Restarted Rails and ran the test again. This time both attachments used the `private` service (again, both in the `active_storage_blobs` table as well as the file system). Again, the service name in the model appears to have been ignored.
+13.  Restarted Rails and ran the test again. This time both attachments used the `private` service (again, both in the `active_storage_blobs` table as well as the file system). Again, the service name in the model appears to have been ignored.
 
-13. Commented out the default again to demonstrate the 500 error
+14. Commented out the default again to demonstrate the 500 error
 
     ```
     # Store uploaded files on the private file system (see config/storage.yml for options).
